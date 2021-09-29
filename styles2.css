@@ -1,0 +1,64 @@
+.container {
+    margin: 10px 23px 34px 0px;
+    border: 2px solid limegreen;
+}
+
+.about-page-spacer {
+    width: 800px;
+    height: 45px;
+}
+
+.bagel {
+    float: left;
+    color: red;
+}
+
+#info-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.info-card {
+    border-left: 10px solid black;
+}
+
+input {
+    display: block;
+    padding: 10px 15px;
+}
+
+.parent > .container input {
+    outline:color;
+    border: 2px solid blue;
+}
+
+input {
+    color: pink;
+    font-size: 15px;
+}
+
+span {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card {
+    letter-spacing: 2px;
+    color: grey;
+}
+
+#contact-us-card{
+    margin: 0px 23px 0px 23px;
+    position: fixed;
+}
+
+.theDiv {
+    width: 125px;
+    opacity: 0.5;
+}
+
+.nav-links  {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    width: 300px;
+}

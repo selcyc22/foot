@@ -1,0 +1,30 @@
+.all {
+    background-image:url(../images/backgrounds/guy.jpg) ;
+    margin-bottom: -17px;
+    background-repeat: 2;
+    height: 1300px;
+}
+.contact-grid-wrapper {
+    width: 750px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family:'ubuntu condensed', sans-serif; 
+    font-weight: 900;
+    display: flex;
+    justify-content:space-between;
+    color:limegreen;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color:limegreen;
+    font-size:30px ;
+}

@@ -1,0 +1,84 @@
+/* hero section */
+.hero-sectin {
+    background-image: url(../images/backgrounds/terraria-hero.jpg);
+    padding: 300px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position:top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .hero-sectin > .top-heading {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: whitesmoke;
+    width: 290px;
+    border-radius: 2px;
+
+} */
+
+/* .hero-sectin > .bottom-heding {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 107px;
+    border-radius: 2px;
+} */
+
+/* features-section */
+.features-section {
+    margin: 0px;
+    height: 400px;
+    background-image:url(../images/backgrounds/R.jpg);
+    background-color:#cea135;
+    color:#cea135;
+    border-top: 10px solid whitesmoke;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: ubuntu condensed , sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 4s;
+    color:limegreen;
+}
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid whitesmoke;  
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    width:100%;
+    transition: 4s;
+    text-align: center;
+}
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+letter-spacing: 1px;
+}
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 1px;
+}
+
+.map img{
+    width: 100%;
+    height: inherit;
+    margin-bottom: -11;
+}
