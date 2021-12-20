@@ -4,6 +4,20 @@
     overflow: hidden;
     
 }
+.header-contact {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    transform: skewy(-3deg);
+    transform-origin: top left;
+    filter: brightness(90%);
+}
 
 .skewed-header > .header-bg {
     position: absolute;
